@@ -1,0 +1,290 @@
+body{
+    background-color:#eeee;
+}
+
+header{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    margin: 2em 1em;
+}
+
+header li{
+    list-style: none;
+}
+
+.flexx{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1{
+    width: Fixed (120px);
+    height: Fixed (48px);
+    top: 40px;
+    left: 40px;
+    gap: 40px;
+
+}
+
+.f{
+    width: fit-content;
+    margin: 2em auto;
+}
+
+.textbox{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 400px;
+    margin: 0 1em 0 0;
+
+}
+
+.texto{
+    padding-top: 1em;
+    display: flex;
+    width: 400px;
+    background: none;
+
+}
+
+.texto p{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0A3871;
+    border: none;
+    background: none;
+    color: #0A3871;
+    margin-top: 0;
+    margin-left: 2px;
+}
+
+::placeholder{
+    color:#0A3871;
+}
+
+.texto input{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0A3871;
+    border: none;
+    background: none;
+    color: #0A3871;
+    outline: none;
+}
+
+.btn{
+    margin-top: auto;
+}
+
+.elespan{
+    padding-bottom: 15px;
+
+}
+
+span{
+    color: #495057;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+
+.inbtn{
+    display: flex;
+    justify-content: space-evenly;
+    width: Fixed (680px);
+    height: Hug (67px);
+    top: 885px;
+    left: 240px;
+    gap: 24px;    
+
+}
+
+.btnen{
+    background-color: #0A3871;
+    color: #eee;
+    width: 200px;
+    height: Hug (67px);
+    padding: 24px;
+    border-radius: 24px;
+    gap: 8px;
+    border: solid #0A3871 0.5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.btnen:hover{
+    background-color: #eee ;
+    color: #0A3871;
+    padding: 10px 20px;
+    font-size: 16px;
+    width: 205px;
+    height: Hug (68px);
+    transform: translateY(-5px);
+    
+    
+}
+
+.btndes{
+    width: 200px;
+    height: Hug (67px);
+    color: #0A3871;
+    padding: 24px;
+    border-radius: 24px;
+    gap: 8px;
+    border: solid #0A3871 0.5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    
+}
+
+.btndes:hover{
+    background-color: #0a3871 ;
+    color: #eee;
+    padding: 10px 20px;
+    font-size: 16px;
+    width: 205px;
+    height: Hug (68px);
+    transform: translateY(-5px);
+    
+}
+
+.btndef{
+    width: 140px;
+    border: 1px solid #7B61FF;
+    background:#7B61FF #7B61FF;
+    
+}
+
+.result{
+    width: 350px;
+    height: Hug (122px);
+    top: 40px;
+    left: 1000px;
+    border-radius: 32px;
+    justify-content: center;
+    /* shadow */
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
+
+.result textarea{
+    color: #495057;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 1em;
+    outline: none;
+    
+}
+
+.result img{
+    width: 100%;
+    height: 65%;
+}
+
+.text_result{
+    width: Fixed (336px);
+    height: Hug (122px);
+    top: 619px;
+    left: 1032px;
+    gap: 16px;
+    justify-items: center;
+    align-items: center;
+    margin: 5em 1em 1em;
+}
+
+.text_result h2{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #343A40;
+}
+
+.text_result p{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.txt_box{
+    border: none;
+    background: none;
+    justify-self: center;
+    user-select: none;
+    height: 100%;
+    width: 100%;
+}
+
+textarea{
+    resize: none;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0A3871;
+
+}
+
+#copiar{
+    display: none;
+}
+
+.btncpy{
+    
+    width: 200px;
+    height: 67px;
+    color: #0A3871;
+    padding: 24px;
+    border-radius: 24px;
+    gap: 8px;
+    border: solid #0A3871 0.5px;
+    cursor: pointer;
+    margin: auto;
+    margin-bottom: 1em;
+    transition: transform 0.3s ease
+}
+
+.btncpy:hover{
+    z-index: 4;
+    background-color: #0a3871 ;
+    color: #eee;
+    padding: 24px 20px;
+    font-size: 16px;
+    width: 205px;
+    height: Hug (68px);
+    transform: translateY(-5px);
+}
+
+footer{
+    color: #495057;
+    font-family: Inter;
+    text-align: center;
+    padding: 5em 0em 1em 0;
+}
+
